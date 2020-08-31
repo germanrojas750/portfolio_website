@@ -128,13 +128,12 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 6rem; }
+    font-size: 5rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
-    padding: 2rem, 3rem;
-    background: rgba(31, 25, 25, 0.267); }
+    padding: 2rem, 3rem; }
 
 a {
   color: #ffff;
@@ -198,6 +197,25 @@ main {
       opacity: 0.5;
       border-color: #eb2323;
       transition: all 1s ease-out; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px #504f4f;
+    padding: 1.5rem, 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 1s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: black;
+      color: set-text-color(#eb2323); }
+      .boxes div:hover span {
+        color: set-text-color(#eb2323); }
 
 .btn, .btn-dark, .btn-light {
   display: block;
